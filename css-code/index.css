@@ -1,20 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
- 
- .whole-page{
- background-color:#fff; 
- 
- font-family: "Montserrat", sans-serif;
- font-optical-sizing: auto;
- font-weight: weight;
- font-style: normal; 
- 
 
-} 
-
-body{
-
-  overflow-x:hidden;
-}
 /* THE SECTION IS STARTED HERE */
  a {
  color: #fff;
@@ -118,12 +102,6 @@ button.btn {
 } 
 
  
-.banner-section{ 
-  padding: 3% 4% 9%;
-    background-image: url( );
-    background-position: right 135px top 91px;
-    background-repeat: no-repeat;
-}
 
 
 /* THE SECTION STARTED HERE */   
@@ -382,6 +360,10 @@ section.cards-section {
 h2.footer-primary-heading.text-white {
   font-size: 56px;
   font-weight: 600;
+} 
+.footer-section{ 
+  background-image: url(/assets/footer-background-theme.5d3752113565d7e8dff4\ \(1\).png); 
+  
 }
 input#user-name,
 input#mobile\ no {
@@ -393,140 +375,26 @@ input#mobile\ no {
 
 .form-group-1 {
   margin-top: 6%;
+} 
+.text-white {
+  font-size: 24px;
+  font-weight: 700;
 }
- 
+  
+textarea#message {
+  margin-left: 90%;
+  margin-top: -104px;
+} 
+input#mobile-no {
+  width: 221px;
+  height: 40px;
+  border-radius: 7px;
+} 
+button#sendButton {
+  margin-left: 232px;
+  border-radius: 6px;
+}
 /* Responsive Styles */
+@media screen and (max-width: 576px){ 
 
-/* For 1024px */
-@media (max-width: 1024px) {
-  nav.primary-navbar {
-    max-width: 95%;
-  }
-  .header-banner {
-    font-size: 46px;
-  }
-  p.sub-text {
-    font-size: 20px;
-  }
-  h2.primary-heading {
-    font-size: 40px;
-  }
-  h3.secondary-heading {
-    font-size: 28px;
-  }
-}
-
-/* For 768px */
-@media (max-width: 768px) {
-  nav.primary-navbar {
-    flex-direction: column;
-    align-items: flex-start; /* Align everything to start on smaller screens */
-    padding: 10px;
-  }
-  
-  .navbar-links {
-    display: none; /* Hide the links initially */
-    flex-direction: column; /* Stack links vertically */
-    align-items: flex-end; /* Keep links aligned to the right when shown */
-    width: 100%;
-  }
-
-  .navbar-links.active {
-    display: flex; /* Show links when toggled */
-  }
-
-  .menu-toggle {
-    display: block; 
-    
-  }
-
-  img.img-fluid.ecard-banner {
-    width: 67%;
-    
-}
-  
-  p.sub-text {
-    font-size: 18px;
-    max-width: 85%;
-  }
-
-  h2.primary-heading {
-    font-size: 34px;
-  }
-
-  h3.secondary-heading {
-    font-size: 26px;
-  }
-
-  .growth-inner-content {
-    margin: 10% auto;
-    max-width: 90%;
-  }
-
-  .many-profile {
-    padding: 10% 20px;
-  }
-
-  .inner-cards {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 3% 5%;
-  }
-
-  .create-share-advance-cards {
-    max-width: 60%;
-  }
-  p.cards-heading {
-    padding-left: 16px;
-    font-size: 15px;
-    font-weight: 800px;
-  } 
-  
-  
-  
-} 
-
-
-
-/* For 320px */
-@media only screen and (max-width: 600px) {
-  
-   
-  banner-section {
-  
-    background-image: url(/assets/access-cards-background.f7812c5….png);
-    background-position: left -155px top -15px;
-    background-repeat: no-repeat;
-    text-align: center;
-  }
-p.cards-heading {
-  
-    padding-left: 3px;
-    font-size: 7px;
-}
-
-
-img.img-fluid.img-cards {
-  width: 29px;
-  height: 24px;
-} 
-span.green-span-1 {
-  font-size: 27px;
-  
-} 
-p.text-of-card.text-white {
-  font-size: 15px;
-  font-weight: 200;
-  padding-top: 16px;
-} 
-.button-section {
-  margin-top: 10%;
-  margin-left: 51%; 
-}
-input#user-name, input#mobile\ no {
-  margin-top: 4%;
-} 
-.form-group-group-message {
-  margin-top: 8%;
-}
 }

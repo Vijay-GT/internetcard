@@ -126,7 +126,11 @@ button.btn-button {
   padding: -1px 26px 6px 46px;
   font-size: 24px;
 }
-
+input#mobile-no {
+  width: 255px;
+  height: 38px;
+  border-radius: 6px;
+}
 
 
 /* the section starts here */  
@@ -219,7 +223,7 @@ img.img-fluid.social-apps {
  
 img.img-fluid.social-apps {
   height: 52px;
-  width: 85px;
+  width: 47px;
   margin-left: 18%; 
 }  
 }
