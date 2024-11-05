@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.img-block{
+    max-width: 80%;
+    margin-left: 57px;
+}
+
+img.img-block {
+    height: 34rem;
+}
+
+.login-account{
+
+    font-size: 34px;
+    margin-left: 65px;
+    line-height: 45px;
+    font-weight: 600;
+}
+
+.internet{
+
+    color: #21c98b;
+}
+
+.form-login{
+
+    background: #e6e6e6;
+    max-width: 80%;
+    margin: 13% auto 2%;
+    text-align: center;
+    padding: 10% 5% 4%;
+    
+    border-radius: 12px;
+}
+
+.login-word p {
+    font-size: 25px;
+}
+
+input#user-email {
+
+    border-radius: 11px;
+    padding: 8px 162px 8px 25px;
+    margin-bottom: 25px;
+    border: 1px solid #112554;
+  
+
+}
+
+input#user-password{
+
+    border-radius: 11px;
+    padding: 8px 162px 8px 25px;
+    margin-bottom: 25px;
+    border: 1px solid #112554;
+}
+
+.terms p {
+    margin-left: 65px;
+    font-size: 12px;
+    line-height: 12px;
+  
+    max-width: 72%;
+}
+
+.green{
+
+    color:#21c98b;
+}
+
+a{
+
+    text-decoration: none !important;
+}
+
+a.forgot{
+    text-decoration: underline;
+    color: #112554;
+    font-size: 13px;
+    margin-right: -15rem;
+    margin-top: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.signin{
+
+    max-width: 95%;
+    margin: 4% auto 4%;
+    border-radius: 24px;
+    padding: 10px;
+    background: #21c98b;
+    display: block;
+    width: 80%;
+    color:white;
+    font-size: 1.25rem;
+    border:none;
+}
+
+.login-to-google{
+
+    padding: 10px 29px;
+    border-radius: 24px;
+    background: transparent;
+    border: 1px solid #f15c4f;
+    font-weight: 700;
+    color: #f15c4f;
+    font-size: 1.25rem;
+}
+
+.login-gmail-icon{
+
+    width: 20px !important;
+    margin-right: 11px;
+}
+
+.social-login-button-container {
+    margin-top: 17px;
+}
+
+.sign-up {
+    margin-top: 36px;
+}
+
+.sign-button{
+margin-left: 10px;
+text-decoration: underline !important;
+cursor: pointer;
+font-weight: 600;
+color: #102754;
+font-size: 20px;
+}
+
+span.member {
+    font-size: 18px;
+    font-weight: 360;
+}
+
+input#signup-email {
+    border-radius: 11px;
+    padding: 8px 162px 8px 25px;
+    margin-bottom: 25px;
+    border: 1px solid #112554;
+}
+
+input#signup-password{
+border-radius: 11px;
+padding: 8px 162px 8px 25px;
+margin-bottom: 25px;
+border: 1px solid #112554;
+}
+
+input#confirm-password{
+
+    border-radius: 11px;
+padding: 8px 162px 8px 25px;
+margin-bottom: 25px;
+border: 1px solid #112554;
+}
+
+
+.sign-up-button button{
+    background: #21c98b;
+    padding: 5px 29px;
+    border-radius: 45px;
+    margin-top: 9% !important
+}
+
+button.sign-up {
+   color:white;
+} 
+/* responsive */ 
+@media only screen and (min-width: 320px){ 
+    input#user-email {
+    
+        padding: 9px 0px 8px 25px; 
+    } 
+    input#user-password {
+      
+        padding: 8px 0px 8px 25px;
+} 
+.terms p {
+    margin-left: 25px;
+} 
+a.forgot {
+    
+    margin-right: 0rem;
+} 
+img.img-block {
+    height: 21rem;
+} 
+input#signup-email {
+    padding: 8px 0px 8px 25px;
+} 
+input#signup-password {
+    padding: 8px 0px 8px 25px;
+} 
+input#confirm-password {
+    padding: 8px 0px 8px 25px;
+} 
+}

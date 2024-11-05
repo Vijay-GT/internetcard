@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+ 
+ .whole-page{
+ background-color:#fff; 
+ 
+ font-family: "Montserrat", sans-serif;
+ font-optical-sizing: auto;
+ font-weight: weight;
+ font-style: normal; 
+ 
+
+} 
+
+body{
+
+  overflow-x:hidden;
+}
+/* THE SECTION IS STARTED HERE */
+ a {
+ color: #fff;
+ text-decoration: none;
+} 
+/* Ensure this part is added to your existing CSS */
+
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+
+  .navbar-links.active {
+      display: flex; /* Show links when toggled */
+  }
+
+  .menu-toggle {
+      display: block; /* Show the toggle button on small screens */
+  }
+
+  .primary-navbar {
+      position: relative; /* Ensure navbar doesn't break layout */
+  }
+
+  span.menu-toggler {
+    width: 25px;
+    height: 3px;
+    color: white;
+    background-color: red;
+    display: block;
+    margin-bottom: 3px;
+}
+
+nav.primary-navbar {
+ background-color: #102754;
+ max-width: 89%;
+ margin: 3% auto;
+ padding: 13px 16px;
+ display: flex;
+ align-items: center;
+ border-radius: 8px;
+}
+
+a.logo-link {
+ margin-right: 5%;
+}
+
+div.navbar-links {
+
+ flex-grow: 1;
+
+ line-height: 1.5;
+ font-size: 20px;
+}
+
+div.navbar-links .links-part-one a {
+ margin-right: 20px; 
+}
+
+div.navbar-links a.active {
+ color: #21c98b; 
+
+}
+
+a.get-the-card-btn {
+ margin-left: 40px;
+ padding: 2px 28px;
+ background-color: #21c98b;
+} 
+/* THE SECTION IS ENDED HERE */
+
+/* THE SECTION STARTED HERE */
+img.img-fluid.ipl-banner {
+ width: 90%;
+ margin-left: 5%;
+}
+/* THE SECTION IS ENDED HERE */
+.header-banner {
+ font-size: 54px;
+ font-weight: 300; 
+ max-width: 75% 
+} 
+.span-1{ 
+  color: #102754;
+}
+p.sub-text {
+  max-width: 75%;
+  font-size: 22px;
+  font-weight: 500;
+} 
+span.green-span {
+  color: #21c98b;
+} 
+button.btn {
+  background: #21c98b;
+  color: white; 
+  padding: 5px 20px;
+    font-size: 18px;
+} 
+
+ 
+.banner-section{ 
+  padding: 3% 4% 9%;
+    background-image: url( );
+    background-position: right 135px top 91px;
+    background-repeat: no-repeat;
+}
+
+
+/* THE SECTION STARTED HERE */   
+
+span.green-span-1 {
+  font-size: 46px;
+  color: #21c98b;
+} 
+h2.primary-heading {
+  font-size: 46px;
+  font-weight: 700;
+  color: #102754; 
+  margin-left: -19%;
+}
+h3.secondary-heading {
+  font-size: 28px;
+    font-weight: 200;
+    margin-left: -21%;
+} 
+.growth-inner-content {
+  margin: 15% auto;
+  max-width: 78%;
+}  
+.many-profile{ 
+  padding: 9% 20px 9% 59px;
+}
+/* THE SECTION IS ENDED HERE */  
+
+/* THE SECTION STARTED HERE */ 
+
+section.cards-section {
+  background: #102754;
+  margin: auto auto 9%;
+  max-width: 93%;
+
+  padding: 21px;
+  text-align: center;
+} 
+p.text-of-card.text-white {
+  font-size: 21px;
+  font-weight: 300;
+  padding-top: 25px;
+}
+
+/* THE SECTION ENDED HERE */ 
+
+/* THE SECTION IS STARTED HERE */
+
+.one-tap-section{ 
+  padding: 22% 2% 12%;
+  background-image: url(/assets/access-cards-background.f7812c5d4d50518f9205.png );
+  background-repeat: no-repeat; 
+  margin-left: 9%;
+} 
+img.img-fluid.ecard-qr-scanner.w-75 {
+  margin-left: -16%;
+    margin-top: -22%;
+}
+
+/* THE SECTION ENDED HERE */ 
+ 
+
+/* THE SECTION STARTED HERE */
+h6.cards-heading{
+  padding-right: 68%;
+  padding-top: 1%;
+}  
+.create-share-advance-cards{ 
+
+  background-color:#f5f5f5f5 ; 
+  max-width: 35%;
+}   
+h2.primary-heading-1 {
+  font-size: 37px;
+  font-weight: 700;
+}
+.inner-cards {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1% 5%;
+  align-items: center;
+  border-radius: 25px;
+  background: #f5f5f5;  
+  margin-top: 3%;
+} 
+img.img-fluid.img-cards {
+  width: 47px;
+  height: 45px;
+} 
+p.cards-heading {
+
+  padding-left: 22px; 
+  font-size: 19px;
+  font-weight: 800px;
+}
+ 
+/* THE SECTION ENDED HERE */  
+/* the section starts here */  
+
+.footer-section{ 
+  background-image: url( ); 
+  padding: 2% 4%; 
+  background-color: #102754; 
+  margin: 6%;
+} 
+
+input#user-name {
+  height: 46px;
+  width: 124%;
+  border-radius: 6px; 
+  padding-left: 22px;
+} 
+input#mobile\ no {
+  height: 46px;
+  width: 124%;
+  border-radius: 6px;
+  padding-left: 22px;
+}
+.form-group-1 {
+  margin-top: 6%;
+} 
+button {
+  padding: 4px 33px;
+    border: 1px solid #22c98b; 
+    background-color: #102754;; 
+  color:#22c98b ;  
+  border-radius: 5px;
+}
+
+.button-section {
+  margin-top: 4%;
+  margin-left: 71%;
+  background-color: #102754;; 
+  color:#22c98b ; 
+  border-radius: 6px
+} 
+img.img-fluid.social-apps {
+  height: 30px;
+  width: 30px; 
+  margin-left: 18%; 
+  padding: 6%;
+}
+
+/*the section ends here */ 
+/* Base Styles */
+body {
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.whole-page {
+  background-color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Navbar Styles */
+nav.primary-navbar {
+  background-color: #102754;
+  max-width: 89%;
+  margin: 3% auto;
+  padding: 13px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Navbar links on the right */
+  border-radius: 8px;
+}
+
+a.logo-link {
+  margin-right: auto; /* Align logo to the left */
+}
+
+div.navbar-links {
+  display: flex;
+  justify-content: flex-end; /* Align navbar links to the right */
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+div.navbar-links .links-part-one a {
+  margin-right: 20px;
+}
+
+div.navbar-links a.active {
+  color: #21c98b;
+}
+
+a.get-the-card-btn {
+  margin-left: 40px;
+  padding: 2px 28px;
+  background-color: #21c98b;
+}
+
+/* Ensure this part is added to your existing CSS */
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.navbar-links.active {
+  display: flex; /* Show links when toggled */
+}
+
+span.menu-toggler {
+  width: 25px;
+  height: 3px;
+  color: white;
+  background-color: red;
+  display: block;
+  margin-bottom: 3px;
+}
+
+/* Section Content */
+.header-banner {
+  font-size: 54px;
+  font-weight: 300;
+  max-width: 75%;
+  text-align: center; /* Center the banner content */
+  margin: 0 auto;
+}
+
+p.sub-text {
+  max-width: 75%;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center; /* Center the subtext */
+  margin: 0 auto;
+}
+
+.banner-section {
+  padding: 3% 4% 9%;
+  background-image: url(/assets/banner-bg.15c9780b585d0a23dae4.svg);
+  background-position: right 135px top 91px;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.growth-inner-content {
+  margin: 15% auto;
+  max-width: 78%;
+  text-align: center; /* Ensure content is centered */
+}
+
+.many-profile {
+  padding: 9% 20px 9% 59px;
+}
+
+section.cards-section {
+  background: #102754;
+  margin: auto auto 9%;
+  max-width: 93%;
+  padding: 21px;
+  text-align: center;
+}
+
+/* Footer Input Field Adjustments */
+h2.footer-primary-heading.text-white {
+  font-size: 56px;
+  font-weight: 600;
+}
+input#user-name,
+input#mobile\ no {
+  height: 46px;
+  width: 100%; /* Fix overflow issue */
+  border-radius: 6px;
+  padding-left: 22px;
+}
+
+.form-group-1 {
+  margin-top: 6%;
+}
+ 
+/* Responsive Styles */
+
+/* For 1024px */
+@media (max-width: 1024px) {
+  nav.primary-navbar {
+    max-width: 95%;
+  }
+  .header-banner {
+    font-size: 46px;
+  }
+  p.sub-text {
+    font-size: 20px;
+  }
+  h2.primary-heading {
+    font-size: 40px;
+  }
+  h3.secondary-heading {
+    font-size: 28px;
+  }
+}
+
+/* For 768px */
+@media (max-width: 768px) {
+  nav.primary-navbar {
+    flex-direction: column;
+    align-items: flex-start; /* Align everything to start on smaller screens */
+    padding: 10px;
+  }
+  
+  .navbar-links {
+    display: none; /* Hide the links initially */
+    flex-direction: column; /* Stack links vertically */
+    align-items: flex-end; /* Keep links aligned to the right when shown */
+    width: 100%;
+  }
+
+  .navbar-links.active {
+    display: flex; /* Show links when toggled */
+  }
+
+  .menu-toggle {
+    display: block; 
+    
+  }
+
+  img.img-fluid.ecard-banner {
+    width: 67%;
+    
+}
+  
+  p.sub-text {
+    font-size: 18px;
+    max-width: 85%;
+  }
+
+  h2.primary-heading {
+    font-size: 34px;
+  }
+
+  h3.secondary-heading {
+    font-size: 26px;
+  }
+
+  .growth-inner-content {
+    margin: 10% auto;
+    max-width: 90%;
+  }
+
+  .many-profile {
+    padding: 10% 20px;
+  }
+
+  .inner-cards {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 3% 5%;
+  }
+
+  .create-share-advance-cards {
+    max-width: 60%;
+  }
+  p.cards-heading {
+    padding-left: 16px;
+    font-size: 15px;
+    font-weight: 800px;
+  } 
+  
+  
+  
+} 
+
+
+
+/* For 320px */
+@media only screen and (max-width: 600px) {
+  
+   
+  banner-section {
+  
+    background-image: url(/assets/access-cards-background.f7812c5….png);
+    background-position: left -155px top -15px;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+p.cards-heading {
+  
+    padding-left: 3px;
+    font-size: 7px;
+}
+
+
+img.img-fluid.img-cards {
+  width: 29px;
+  height: 24px;
+} 
+span.green-span-1 {
+  font-size: 27px;
+  
+} 
+p.text-of-card.text-white {
+  font-size: 15px;
+  font-weight: 200;
+  padding-top: 16px;
+} 
+.button-section {
+  margin-top: 10%;
+  margin-left: 51%; 
+}
+input#user-name, input#mobile\ no {
+  margin-top: 4%;
+} 
+.form-group-group-message {
+  margin-top: 8%;
+}
+}
